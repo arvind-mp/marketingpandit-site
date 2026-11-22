@@ -1,4 +1,8 @@
-// Minimal JS — smooth scroll polyfill + active nav link highlighting
+// Minimal JS — active nav highlighting + dynamic copyright year
+
+// Dynamic copyright year
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Active nav link on scroll
 const sections = document.querySelectorAll('section[id]');

@@ -148,6 +148,7 @@ a { color: inherit; text-decoration: none; }
   transition: color .15s;
 }
 .nav nav a:not(.btn):hover { color: var(--clr-text); }
+.nav nav a.nav--active:not(.btn) { color: var(--clr-accent); font-weight: 600; }
 
 /* ===========================
    HERO
@@ -313,9 +314,9 @@ a { color: inherit; text-decoration: none; }
   color: var(--clr-muted);
 }
 
-.footer__domain {
-  font-size: .8rem !important;
-  color: var(--clr-accent) !important;
+.footer__inner .footer__domain {
+  font-size: .8rem;
+  color: var(--clr-accent);
   font-weight: 500;
 }
 

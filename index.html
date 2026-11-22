@@ -4,10 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Marketing Pandit — IT Consulting agency helping businesses grow through technology." />
+  <meta property="og:title" content="Marketing Pandit | IT Consulting" />
+  <meta property="og:description" content="Smart technology. Real business results. IT consulting for growing businesses." />
+  <meta property="og:url" content="https://marketingpandit.in" />
+  <meta property="og:type" content="website" />
   <title>Marketing Pandit | IT Consulting</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </noscript>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -132,10 +141,12 @@
   <footer class="footer">
     <div class="container footer__inner">
       <span class="nav__logo">Marketing<span>Pandit</span></span>
-      <p>© 2026 Marketing Pandit. All rights reserved.</p>
+      <p>© <span id="year"></span> Marketing Pandit. All rights reserved.</p>
       <p class="footer__domain">marketingpandit.in</p>
     </div>
   </footer>
 
+
+<script src="main.js" defer></script>
 </body>
 </html>
