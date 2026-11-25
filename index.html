@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Marketing Pandit — IT Consulting agency helping businesses grow through technology." />
-  <meta property="og:title" content="Marketing Pandit | IT Consulting" />
-  <meta property="og:description" content="Smart technology. Real business results. IT consulting for growing businesses." />
+  <meta name="description" content="Marketing Pandit helps businesses with product strategy, digital marketing, and website and web application development." />
+  <meta property="og:title" content="Marketing Pandit | Product Strategy, Marketing &amp; Web Development" />
+  <meta property="og:description" content="Plan your next launch, reach the right customers, and build the website or web app your business needs." />
   <meta property="og:url" content="https://marketingpandit.in" />
   <meta property="og:type" content="website" />
-  <title>Marketing Pandit | IT Consulting</title>
+  <title data-i18n="page_title">Marketing Pandit | Product Strategy, Marketing &amp; Web Development</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,12 +41,22 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container hero__inner">
-      <span class="badge" data-i18n="hero_badge">IT Consulting Agency</span>
-      <h1 data-i18n-html="hero_h1">Smart Technology.<br />Real Business Results.</h1>
-      <p class="hero__sub" data-i18n="hero_sub">We help growing businesses leverage the right tools, infrastructure, and digital strategy to move faster and scale smarter.</p>
-      <div class="hero__cta">
-        <a href="#contact" class="btn" data-i18n="hero_cta1">Get in Touch</a>
-        <a href="#services" class="btn btn--ghost" data-i18n="hero_cta2">Our Services</a>
+      <div>
+        <span class="badge" data-i18n="hero_badge">Product Strategy · Marketing · Web Development</span>
+        <h1 data-i18n="hero_h1">Get online. Get enquiries. Start selling.</h1>
+        <p class="hero__sub" data-i18n="hero_sub">From planning your launch to building a site that takes orders, we help you choose what’s worth doing now and what can wait.</p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn" data-i18n="hero_cta1">Talk Through Your Project</a>
+        </div>
+        <p class="hero__note" data-i18n="hero_note">No brief needed. Start with what you want to achieve.</p>
+      </div>
+      <div class="hero__paths">
+        <h2 data-i18n="paths_title">What are you working towards?</h2>
+        <ul>
+          <li><a href="#launch-strategy"><span data-i18n="path_launch">Plan a launch</span><span aria-hidden="true">↓</span></a></li>
+          <li><a href="#business-website"><span data-i18n="path_enquiries">Get more enquiries</span><span aria-hidden="true">↓</span></a></li>
+          <li><a href="#interactive-solutions"><span data-i18n="path_sales">Sell or take bookings online</span><span aria-hidden="true">↓</span></a></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -57,39 +67,64 @@
       <div class="section__head">
         <span class="label" data-i18n="services_label">What We Do</span>
         <h2 data-i18n="services_h2">Our Services</h2>
-        <p data-i18n="services_sub">End-to-end technology consulting tailored for growing businesses.</p>
+        <p data-i18n="services_sub">Work with us on one service or combine them for a launch, a campaign, or an existing business.</p>
       </div>
       <div class="grid grid--3">
-        <div class="card">
-          <div class="card__icon">🖥️</div>
-          <h3 data-i18n="s1_title">IT Strategy &amp; Consulting</h3>
-          <p data-i18n="s1_desc">Align your technology investments with business goals through structured planning and expert guidance.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">☁️</div>
-          <h3 data-i18n="s2_title">Cloud &amp; Infrastructure</h3>
-          <p data-i18n="s2_desc">Migrate, optimise, and manage cloud environments on AWS, GCP, or Azure — built for reliability and cost efficiency.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">🔒</div>
-          <h3 data-i18n="s3_title">Cybersecurity</h3>
-          <p data-i18n="s3_desc">Protect your business with security audits, compliance reviews, and best-practice implementations.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">⚙️</div>
-          <h3 data-i18n="s4_title">Process Automation</h3>
-          <p data-i18n="s4_desc">Eliminate repetitive work and reduce errors by automating workflows across your tools and platforms.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">🌐</div>
-          <h3 data-i18n="s5_title">Web &amp; Digital Presence</h3>
-          <p data-i18n="s5_desc">Build fast, modern websites and digital touchpoints that represent your brand and convert visitors.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">📊</div>
-          <h3 data-i18n="s6_title">Analytics &amp; Reporting</h3>
-          <p data-i18n="s6_desc">Turn raw data into actionable insights with dashboards and reporting systems that actually get used.</p>
-        </div>
+        <article class="card" id="launch-strategy">
+          <span class="card__icon" aria-hidden="true">🧭</span>
+          <h3 data-i18n="strategy_title">Product Management &amp; Strategy</h3>
+          <p data-i18n="strategy_desc">Use product research and reports to decide what to offer. Plan your sales channels, media, and go-to-market strategy before you launch.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">📣</span>
+          <h3 data-i18n="marketing_title">Marketing</h3>
+          <p data-i18n="marketing_desc">Reach the right audience with digital marketing, content strategy, and content creation.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🌐</span>
+          <h3 data-i18n="development_title">Website &amp; Web Application Development</h3>
+          <p data-i18n="development_desc">Build a site that helps customers find you, or an application that lets them buy, book, or get things done online.</p>
+          <a class="card__link" href="#web-solutions" data-i18n="development_link">Explore web solutions</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEB SOLUTIONS -->
+  <section class="section web-solutions" id="web-solutions">
+    <div class="container">
+      <div class="section__head">
+        <span class="label" data-i18n="web_label">Web Solutions</span>
+        <h2 data-i18n="web_h2">Build what your business needs now</h2>
+        <p data-i18n="web_sub">Start with the essentials or build for online sales and services. We’ll help you choose between a ready-made platform and a custom build based on your needs, budget, and timeline.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card" id="business-website">
+          <h3 data-i18n="presence_title">Digital Business Presence</h3>
+          <p data-i18n="presence_desc">Help customers find you, understand what you offer, and get in touch.</p>
+          <ul class="card__list">
+            <li data-i18n="presence_landing">Landing pages and domain setup</li>
+            <li data-i18n="presence_sites">Business websites, portfolios, and product catalogues</li>
+            <li data-i18n="presence_enquiries">Customer enquiry forms and editable content</li>
+          </ul>
+        </article>
+        <article class="card" id="interactive-solutions">
+          <h3 data-i18n="interactive_title">Interactive Digital Solutions</h3>
+          <p data-i18n="interactive_desc">Let customers buy, book, or access services online.</p>
+          <ul class="card__list">
+            <li data-i18n="interactive_commerce">Online stores and payment integration</li>
+            <li data-i18n="interactive_booking">Booking systems and customer portals</li>
+            <li data-i18n="interactive_apps">Custom web apps and software integrations</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3 data-i18n="management_title">Website &amp; Application Management</h3>
+          <p data-i18n="management_desc">Get ongoing help keeping your website or app running after launch.</p>
+          <ul class="card__list">
+            <li data-i18n="management_hosting">Domain and hosting management</li>
+            <li data-i18n="management_support">Maintenance, updates, and technical support</li>
+          </ul>
+        </article>
       </div>
     </div>
   </section>
@@ -99,23 +134,23 @@
     <div class="container about__inner">
       <div class="about__text">
         <span class="label" data-i18n="about_label">Who We Are</span>
-        <h2 data-i18n="about_h2">A focused team of technology consultants</h2>
-        <p data-i18n="about_p1">Marketing Pandit is a lean IT consulting agency based in India. We work closely with founders, teams, and organisations to solve real technology problems — without the overhead of a large firm.</p>
-        <p data-i18n="about_p2">We believe good technology advice should be practical, affordable, and tailored — not templated. Whether you're just starting out or scaling up, we're here to help you make confident technology decisions.</p>
+        <h2 data-i18n="about_h2">We start with your business goals</h2>
+        <p data-i18n="about_p1">Marketing Pandit is an India-based team bringing product strategy, marketing, and web development together for founders and growing businesses.</p>
+        <p data-i18n="about_p2">You don’t need to know which platform or service to ask for. Tell us what you want to achieve, and we’ll help you decide what to do first and what can wait.</p>
         <a href="#contact" class="btn" data-i18n="about_cta">Work With Us</a>
       </div>
-      <div class="about__visual" aria-hidden="true">
+      <div class="about__visual">
         <div class="about__card">
-          <strong data-i18n="ab1_title">🤝 Client-first approach</strong>
-          <p data-i18n="ab1_desc">We prioritise outcomes over hours. Every recommendation we make is in your best interest.</p>
+          <strong data-i18n="approach_goals_title">Start with the goal</strong>
+          <p data-i18n="approach_goals_desc">Tell us who you want to reach and what success would look like.</p>
         </div>
         <div class="about__card">
-          <strong data-i18n="ab2_title">⚡ Fast &amp; responsive</strong>
-          <p data-i18n="ab2_desc">No layers of bureaucracy. You speak directly to the people doing the work.</p>
+          <strong data-i18n="approach_scope_title">Agree on what comes first</strong>
+          <p data-i18n="approach_scope_desc">We’ll separate what you need at launch from what makes sense to add later.</p>
         </div>
         <div class="about__card">
-          <strong data-i18n="ab3_title">🇮🇳 India-based, globally aware</strong>
-          <p data-i18n="ab3_desc">Competitive pricing with a thorough understanding of global technology standards.</p>
+          <strong data-i18n="approach_support_title">Plan for after launch</strong>
+          <p data-i18n="approach_support_desc">For web projects, we’ll discuss who will manage the site and what support you’ll need.</p>
         </div>
       </div>
     </div>
@@ -124,20 +159,20 @@
   <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container">
-      <div class="section__head">
-        <span class="label" data-i18n="contact_label">Get In Touch</span>
-        <h2 data-i18n="contact_h2">Let's talk about your project</h2>
-        <p data-i18n="contact_sub">Reach out and we'll get back to you within one business day.</p>
-      </div>
-      <div class="contact__links">
-        <a href="mailto:hello@marketingpandit.in" class="contact__card">
-          <span class="contact__icon">✉️</span>
-          <span>hello@marketingpandit.in</span>
-        </a>
-        <a href="mailto:arvind@marketingpandit.in" class="contact__card">
-          <span class="contact__icon">👤</span>
-          <span>arvind@marketingpandit.in</span>
-        </a>
+      <div class="contact__panel">
+        <div>
+          <span class="label" data-i18n="contact_label">Start a Conversation</span>
+          <h2 data-i18n="contact_h2">Not sure where to start? Let’s figure it out.</h2>
+          <p data-i18n="contact_sub">Email us a few lines about your business, what you’d like to achieve, and your launch date if you have one. We’ll help you work out a sensible first step.</p>
+        </div>
+        <div class="contact__actions">
+          <a href="mailto:hello@marketingpandit.in" class="btn contact__action">
+            <strong data-i18n="contact_cta">Email Us About Your Project</strong>
+            <span id="contact-email">hello@marketingpandit.in</span>
+          </a>
+          <button type="button" class="contact__copy" id="copy-email" data-i18n="contact_copy" hidden>Copy email address</button>
+          <p class="contact__status" id="copy-status" role="status"></p>
+        </div>
       </div>
     </div>
   </section>
