@@ -7,45 +7,62 @@ const translations = {
     nav_about:      'About',
     nav_contact:    'Contact Us',
 
-    hero_badge:     'IT Consulting Agency',
-    hero_h1:        'Smart Technology.<br />Real Business Results.',
-    hero_sub:       'We help growing businesses leverage the right tools, infrastructure, and digital strategy to move faster and scale smarter.',
-    hero_cta1:      'Get in Touch',
+    page_title:     'Marketing Pandit | Product Strategy, Marketing & Web Development',
+    hero_badge:     'Product Strategy · Marketing · Web Development',
+    hero_h1:        'From your first idea to your next customer',
+    hero_sub:       'We help you plan what to launch, reach the right customers, and build a website or web app that supports your business.',
+    hero_cta1:      'Discuss Your Project',
     hero_cta2:      'Our Services',
 
     services_label: 'What We Do',
     services_h2:    'Our Services',
-    services_sub:   'End-to-end technology consulting tailored for growing businesses.',
+    services_sub:   'Work with us on one service or combine them for a launch, a campaign, or an existing business.',
 
-    s1_title: 'IT Strategy & Consulting',
-    s1_desc:  'Align your technology investments with business goals through structured planning and expert guidance.',
-    s2_title: 'Cloud & Infrastructure',
-    s2_desc:  'Migrate, optimise, and manage cloud environments on AWS, GCP, or Azure — built for reliability and cost efficiency.',
-    s3_title: 'Cybersecurity',
-    s3_desc:  'Protect your business with security audits, compliance reviews, and best-practice implementations.',
-    s4_title: 'Process Automation',
-    s4_desc:  'Eliminate repetitive work and reduce errors by automating workflows across your tools and platforms.',
-    s5_title: 'Web & Digital Presence',
-    s5_desc:  'Build fast, modern websites and digital touchpoints that represent your brand and convert visitors.',
-    s6_title: 'Analytics & Reporting',
-    s6_desc:  'Turn raw data into actionable insights with dashboards and reporting systems that actually get used.',
+    strategy_title:    'Product Management & Strategy',
+    strategy_desc:     'Use product research and reports to decide what to offer. Plan your sales channels, media, and go-to-market strategy before you launch.',
+    marketing_title:   'Marketing',
+    marketing_desc:    'Reach the right audience with digital marketing, content strategy, and content creation.',
+    development_title: 'Website & Web Application Development',
+    development_desc:  'Build a site that helps customers find you, or an application that lets them buy, book, or get things done online.',
+    development_link:  'Explore web solutions',
+
+    web_label: 'Web Solutions',
+    web_h2:    'Build what your business needs now',
+    web_sub:   'Start with the essentials or build for online sales and services. We’ll help you choose between a ready-made platform and a custom build based on your needs, budget, and timeline.',
+
+    presence_title:     'Digital Business Presence',
+    presence_desc:      'Help customers find you, understand what you offer, and get in touch.',
+    presence_landing:   'Landing pages and domain setup',
+    presence_sites:     'Business websites, portfolios, and product catalogues',
+    presence_enquiries: 'Customer enquiry forms and editable content',
+
+    interactive_title:    'Interactive Digital Solutions',
+    interactive_desc:     'Let customers buy, book, or access services online.',
+    interactive_commerce: 'Online stores and payment integration',
+    interactive_booking:  'Booking systems and customer portals',
+    interactive_apps:     'Custom web apps and software integrations',
+
+    management_title:   'Website & Application Management',
+    management_desc:    'Get ongoing help keeping your website or app running after launch.',
+    management_hosting: 'Domain and hosting management',
+    management_support: 'Maintenance, updates, and technical support',
 
     about_label: 'Who We Are',
-    about_h2:    'A focused team of technology consultants',
-    about_p1:    'Marketing Pandit is a lean IT consulting agency based in India. We work closely with founders, teams, and organisations to solve real technology problems — without the overhead of a large firm.',
-    about_p2:    'We believe good technology advice should be practical, affordable, and tailored — not templated. Whether you\'re just starting out or scaling up, we\'re here to help you make confident technology decisions.',
+    about_h2:    'We start with your business goals',
+    about_p1:    'Marketing Pandit is an India-based team bringing product strategy, marketing, and web development together for founders and growing businesses.',
+    about_p2:    'You don’t need to know which platform or service to ask for. Tell us what you want to achieve, and we’ll help you decide what to do first and what can wait.',
     about_cta:   'Work With Us',
 
-    ab1_title: '🤝 Client-first approach',
-    ab1_desc:  'We prioritise outcomes over hours. Every recommendation we make is in your best interest.',
-    ab2_title: '⚡ Fast & responsive',
-    ab2_desc:  'No layers of bureaucracy. You speak directly to the people doing the work.',
-    ab3_title: '🇮🇳 India-based, globally aware',
-    ab3_desc:  'Competitive pricing with a thorough understanding of global technology standards.',
+    approach_goals_title:   'Start with the goal',
+    approach_goals_desc:    'Tell us who you want to reach and what success would look like.',
+    approach_scope_title:   'Agree on what comes first',
+    approach_scope_desc:    'We’ll separate what you need at launch from what makes sense to add later.',
+    approach_support_title: 'Plan for after launch',
+    approach_support_desc:  'For web projects, we’ll discuss who will manage the site and what support you’ll need.',
 
     contact_label: 'Get In Touch',
-    contact_h2:    'Let\'s talk about your project',
-    contact_sub:   'Reach out and we\'ll get back to you within one business day.',
+    contact_h2:    'What are you working on?',
+    contact_sub:   'Tell us a little about your business and what you’d like to achieve. If you have a target launch date, include that too.',
 
     footer_rights: 'All rights reserved.',
   },
@@ -55,45 +72,62 @@ const translations = {
     nav_about:      'आमच्याबद्दल',
     nav_contact:    'संपर्क करा',
 
-    hero_badge:     'आयटी सल्लागार संस्था',
-    hero_h1:        'स्मार्ट तंत्रज्ञान.<br />खरे व्यावसायिक परिणाम.',
-    hero_sub:       'आम्ही वाढत्या व्यवसायांना योग्य साधने, पायाभूत सुविधा आणि डिजिटल रणनीती वापरण्यात मदत करतो — जेणेकरून ते जलद वाढू शकतात.',
-    hero_cta1:      'संपर्क करा',
+    page_title:     'मार्केटिंग पंडित | उत्पादन धोरण, मार्केटिंग आणि वेब विकास',
+    hero_badge:     'उत्पादन धोरण · मार्केटिंग · वेब विकास',
+    hero_h1:        'पहिल्या कल्पनेपासून नव्या ग्राहकापर्यंत',
+    hero_sub:       'बाजारात काय आणायचं हे ठरवायला, योग्य ग्राहकांपर्यंत पोहोचायला आणि व्यवसायाला उपयोगी पडेल अशी वेबसाइट किंवा वेब ॲप तयार करायला आम्ही मदत करतो.',
+    hero_cta1:      'प्रकल्पाबद्दल बोलूया',
     hero_cta2:      'आमच्या सेवा',
 
     services_label: 'आम्ही काय करतो',
     services_h2:    'आमच्या सेवा',
-    services_sub:   'वाढत्या व्यवसायांसाठी संपूर्ण तंत्रज्ञान सल्ला.',
+    services_sub:   'नवीन उत्पादन, मोहीम किंवा सध्याच्या व्यवसायासाठी तुम्ही आमची एक सेवा घेऊ शकता किंवा अनेक सेवा एकत्र निवडू शकता.',
 
-    s1_title: 'आयटी धोरण आणि सल्ला',
-    s1_desc:  'संरचित नियोजन आणि तज्ञ मार्गदर्शनाद्वारे आपली तंत्रज्ञान गुंतवणूक व्यावसायिक उद्दिष्टांशी जुळवा.',
-    s2_title: 'क्लाउड आणि पायाभूत सुविधा',
-    s2_desc:  'AWS, GCP किंवा Azure वर क्लाउड वातावरण स्थलांतरित करा, ऑप्टिमाइझ करा आणि व्यवस्थापित करा — विश्वासार्हता आणि खर्च कार्यक्षमतेसाठी.',
-    s3_title: 'सायबर सुरक्षा',
-    s3_desc:  'सुरक्षा ऑडिट, अनुपालन पुनरावलोकने आणि सर्वोत्तम पद्धतींच्या अंमलबजावणीसह आपल्या व्यवसायाचे संरक्षण करा.',
-    s4_title: 'प्रक्रिया स्वयंचलन',
-    s4_desc:  'आपल्या साधने आणि प्लॅटफॉर्ममध्ये कार्यप्रवाह स्वयंचलित करून पुनरावृत्ती कार्य दूर करा आणि चुका कमी करा.',
-    s5_title: 'वेब आणि डिजिटल उपस्थिती',
-    s5_desc:  'जलद, आधुनिक वेबसाइट आणि डिजिटल टचपॉइंट तयार करा जे आपल्या ब्रँडचे प्रतिनिधित्व करतात आणि अभ्यागतांना ग्राहकांमध्ये रूपांतरित करतात.',
-    s6_title: 'विश्लेषण आणि अहवाल',
-    s6_desc:  'डॅशबोर्ड आणि रिपोर्टिंग सिस्टमसह कच्चा डेटा कृतीयोग्य अंतर्दृष्टीमध्ये बदला.',
+    strategy_title:    'उत्पादन व्यवस्थापन आणि धोरण',
+    strategy_desc:     'उत्पादन संशोधन आणि अहवालांच्या मदतीने ग्राहकांना काय द्यायचं ते ठरवा. उत्पादन बाजारात आणण्यापूर्वी विक्रीचे मार्ग, प्रसारमाध्यमे आणि बाजारपेठेत प्रवेश यांचं नियोजन करा.',
+    marketing_title:   'मार्केटिंग',
+    marketing_desc:    'डिजिटल मार्केटिंग, आशयाचं नियोजन आणि निर्मिती यांच्या मदतीने योग्य ग्राहकांपर्यंत पोहोचा.',
+    development_title: 'वेबसाइट आणि वेब ॲप्लिकेशन विकास',
+    development_desc:  'ग्राहकांना तुमचा व्यवसाय शोधता येईल अशी वेबसाइट किंवा ऑनलाइन खरेदी, बुकिंग आणि इतर कामं करता येतील असं ॲप तयार करा.',
+    development_link:  'वेब सेवांचे पर्याय पाहा',
+
+    web_label: 'वेब सेवा',
+    web_h2:    'व्यवसायाला आज काय हवं आहे?',
+    web_sub:   'मोजक्या सुविधांपासून सुरुवात करा किंवा ऑनलाइन विक्री आणि सेवांसाठी व्यवस्था उभारा. तुमच्या गरजा, बजेट आणि वेळेनुसार तयार प्लॅटफॉर्म वापरायचा की खास उपाय बनवायचा हे ठरवायला आम्ही मदत करू.',
+
+    presence_title:     'व्यवसायाची ऑनलाइन ओळख',
+    presence_desc:      'ग्राहकांना तुमचा व्यवसाय शोधता येईल, तुमच्या सेवा समजतील आणि तुमच्याशी संपर्क साधता येईल.',
+    presence_landing:   'लँडिंग पेज आणि डोमेन सेटअप',
+    presence_sites:     'व्यावसायिक वेबसाइट, कामांचे पोर्टफोलिओ आणि उत्पादन सूची',
+    presence_enquiries: 'ग्राहक चौकशी फॉर्म आणि स्वतः बदलता येणारा मजकूर',
+
+    interactive_title:    'ऑनलाइन व्यवहार आणि सेवा',
+    interactive_desc:     'ग्राहकांना ऑनलाइन खरेदी, बुकिंग किंवा सेवांचा वापर करता येईल अशी व्यवस्था करा.',
+    interactive_commerce: 'ऑनलाइन दुकाने आणि पेमेंट सुविधा',
+    interactive_booking:  'बुकिंग व्यवस्था आणि ग्राहक पोर्टल',
+    interactive_apps:     'गरजेनुसार वेब ॲप्स आणि इतर सॉफ्टवेअरशी जोडणी',
+
+    management_title:   'वेबसाइट आणि ॲप व्यवस्थापन',
+    management_desc:    'वेबसाइट किंवा ॲप सुरू झाल्यानंतर ते सुरळीत चालू ठेवण्यासाठी मदत मिळवा.',
+    management_hosting: 'डोमेन आणि होस्टिंग व्यवस्थापन',
+    management_support: 'देखभाल, अपडेट्स आणि तांत्रिक मदत',
 
     about_label: 'आम्ही कोण आहोत',
-    about_h2:    'तंत्रज्ञान सल्लागारांची एक समर्पित टीम',
-    about_p1:    'मार्केटिंग पंडित ही भारतात आधारित एक लहान आयटी सल्लागार संस्था आहे. आम्ही संस्थापक, टीम आणि संस्थांसोबत मिळून खऱ्या तंत्रज्ञान समस्या सोडवतो — मोठ्या फर्मच्या ओझ्याशिवाय.',
-    about_p2:    'आम्ही मानतो की चांगला तंत्रज्ञान सल्ला व्यावहारिक, परवडणारा आणि अनुकूलित असावा — टेम्पलेटेड नाही. आपण नुकतेच सुरुवात करत असाल किंवा वाढत असाल, आम्ही आपल्याला आत्मविश्वासाने तंत्रज्ञान निर्णय घेण्यास मदत करण्यासाठी येथे आहोत.',
+    about_h2:    'सुरुवात तुमच्या व्यवसायाच्या उद्दिष्टांपासून',
+    about_p1:    'मार्केटिंग पंडित ही भारतातील टीम आहे. संस्थापक आणि वाढत्या व्यवसायांसाठी आम्ही उत्पादन धोरण, मार्केटिंग आणि वेब विकास या सेवा एकत्र आणतो.',
+    about_p2:    'कोणता प्लॅटफॉर्म किंवा सेवा निवडायची हे आधीच ठरवण्याची गरज नाही. तुम्हाला काय साध्य करायचं आहे ते सांगा. काय आधी करायचं आणि काय नंतर करता येईल, हे ठरवायला आम्ही मदत करू.',
     about_cta:   'आमच्यासोबत काम करा',
 
-    ab1_title: '🤝 ग्राहक-प्रथम दृष्टिकोन',
-    ab1_desc:  'आम्ही तासांपेक्षा परिणामांना प्राधान्य देतो. आम्ही करत असलेली प्रत्येक शिफारस आपल्या सर्वोत्तम हिताची आहे.',
-    ab2_title: '⚡ जलद आणि प्रतिसादशील',
-    ab2_desc:  'नोकरशाहीचे थर नाहीत. आपण थेट काम करणाऱ्या लोकांशी बोलता.',
-    ab3_title: '🇮🇳 भारत-आधारित, जागतिक जागरूकता',
-    ab3_desc:  'जागतिक तंत्रज्ञान मानकांच्या सखोल समजासह स्पर्धात्मक किंमती.',
+    approach_goals_title:   'उद्दिष्ट समजून घेऊया',
+    approach_goals_desc:    'तुम्हाला कोणापर्यंत पोहोचायचं आहे आणि काम यशस्वी झालं हे कसं ठरवाल, ते सांगा.',
+    approach_scope_title:   'आधी काय करायचं ते ठरवूया',
+    approach_scope_desc:    'सुरुवातीलाच काय गरजेचं आहे आणि नंतर काय जोडता येईल, हे वेगळं करूया.',
+    approach_support_title: 'लाँचनंतरचं नियोजन',
+    approach_support_desc:  'वेब प्रकल्पांसाठी वेबसाइट कोण सांभाळेल आणि कोणती मदत लागेल, याबद्दल बोलूया.',
 
-    contact_label: 'संपर्कात राहा',
-    contact_h2:    'आपल्या प्रकल्पाबद्दल बोलूया',
-    contact_sub:   'आम्हाला संपर्क करा आणि आम्ही एका कामकाजाच्या दिवसात परत येऊ.',
+    contact_label: 'संपर्क साधा',
+    contact_h2:    'तुमचा प्रकल्प काय आहे?',
+    contact_sub:   'तुमच्या व्यवसायाबद्दल आणि तुम्हाला काय साध्य करायचं आहे याबद्दल थोडक्यात सांगा. लाँचची अपेक्षित तारीख असेल तर तीही कळवा.',
 
     footer_rights: 'सर्व हक्क राखीव आहेत.',
   }
@@ -108,16 +142,9 @@ function applyLang(lang) {
   const t = translations[lang];
   if (!t) return;
 
-  // Text nodes
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
     if (t[key] !== undefined) el.textContent = t[key];
-  });
-
-  // HTML nodes (e.g. h1 with <br>)
-  document.querySelectorAll('[data-i18n-html]').forEach(el => {
-    const key = el.dataset.i18nHtml;
-    if (t[key] !== undefined) el.innerHTML = t[key];
   });
 
   // Update <html lang> for accessibility/SEO
@@ -155,6 +182,7 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 // =============================================
 const sections = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav nav a[href^="#"]');
+const navSection = { 'web-solutions': 'services' };
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -162,7 +190,7 @@ const observer = new IntersectionObserver((entries) => {
       navLinks.forEach(link => {
         link.classList.toggle(
           'nav--active',
-          link.getAttribute('href') === '#' + entry.target.id
+          link.getAttribute('href') === '#' + (navSection[entry.target.id] || entry.target.id)
         );
       });
     }
