@@ -41,12 +41,22 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container hero__inner">
-      <span class="badge" data-i18n="hero_badge">Product Strategy · Marketing · Web Development</span>
-      <h1 data-i18n="hero_h1">From your first idea to your next customer</h1>
-      <p class="hero__sub" data-i18n="hero_sub">We help you plan what to launch, reach the right customers, and build a website or web app that supports your business.</p>
-      <div class="hero__cta">
-        <a href="#contact" class="btn" data-i18n="hero_cta1">Discuss Your Project</a>
-        <a href="#services" class="btn btn--ghost" data-i18n="hero_cta2">Our Services</a>
+      <div>
+        <span class="badge" data-i18n="hero_badge">Product Strategy · Marketing · Web Development</span>
+        <h1 data-i18n="hero_h1">Get online. Get enquiries. Start selling.</h1>
+        <p class="hero__sub" data-i18n="hero_sub">From planning your launch to building a site that takes orders, we help you choose what’s worth doing now and what can wait.</p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn" data-i18n="hero_cta1">Talk Through Your Project</a>
+        </div>
+        <p class="hero__note" data-i18n="hero_note">No brief needed. Start with what you want to achieve.</p>
+      </div>
+      <div class="hero__paths">
+        <h2 data-i18n="paths_title">What are you working towards?</h2>
+        <ul>
+          <li><a href="#launch-strategy"><span data-i18n="path_launch">Plan a launch</span><span aria-hidden="true">↓</span></a></li>
+          <li><a href="#business-website"><span data-i18n="path_enquiries">Get more enquiries</span><span aria-hidden="true">↓</span></a></li>
+          <li><a href="#interactive-solutions"><span data-i18n="path_sales">Sell or take bookings online</span><span aria-hidden="true">↓</span></a></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -60,7 +70,7 @@
         <p data-i18n="services_sub">Work with us on one service or combine them for a launch, a campaign, or an existing business.</p>
       </div>
       <div class="grid grid--3">
-        <article class="card">
+        <article class="card" id="launch-strategy">
           <span class="card__icon" aria-hidden="true">🧭</span>
           <h3 data-i18n="strategy_title">Product Management &amp; Strategy</h3>
           <p data-i18n="strategy_desc">Use product research and reports to decide what to offer. Plan your sales channels, media, and go-to-market strategy before you launch.</p>
@@ -89,7 +99,7 @@
         <p data-i18n="web_sub">Start with the essentials or build for online sales and services. We’ll help you choose between a ready-made platform and a custom build based on your needs, budget, and timeline.</p>
       </div>
       <div class="grid grid--3">
-        <article class="card">
+        <article class="card" id="business-website">
           <h3 data-i18n="presence_title">Digital Business Presence</h3>
           <p data-i18n="presence_desc">Help customers find you, understand what you offer, and get in touch.</p>
           <ul class="card__list">
@@ -98,7 +108,7 @@
             <li data-i18n="presence_enquiries">Customer enquiry forms and editable content</li>
           </ul>
         </article>
-        <article class="card">
+        <article class="card" id="interactive-solutions">
           <h3 data-i18n="interactive_title">Interactive Digital Solutions</h3>
           <p data-i18n="interactive_desc">Let customers buy, book, or access services online.</p>
           <ul class="card__list">
@@ -149,19 +159,15 @@
   <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="container">
-      <div class="section__head">
-        <span class="label" data-i18n="contact_label">Get In Touch</span>
-        <h2 data-i18n="contact_h2">What are you working on?</h2>
-        <p data-i18n="contact_sub">Tell us a little about your business and what you’d like to achieve. If you have a target launch date, include that too.</p>
-      </div>
-      <div class="contact__links">
-        <a href="mailto:hello@marketingpandit.in" class="contact__card">
-          <span class="contact__icon">✉️</span>
+      <div class="contact__panel">
+        <div>
+          <span class="label" data-i18n="contact_label">Start a Conversation</span>
+          <h2 data-i18n="contact_h2">Not sure where to start? Let’s figure it out.</h2>
+          <p data-i18n="contact_sub">Email us a few lines about your business, what you’d like to achieve, and your launch date if you have one. We’ll help you work out a sensible first step.</p>
+        </div>
+        <a href="mailto:hello@marketingpandit.in" class="btn contact__action">
+          <strong data-i18n="contact_cta">Email Us About Your Project</strong>
           <span>hello@marketingpandit.in</span>
-        </a>
-        <a href="mailto:arvind@marketingpandit.in" class="contact__card">
-          <span class="contact__icon">👤</span>
-          <span>arvind@marketingpandit.in</span>
         </a>
       </div>
     </div>

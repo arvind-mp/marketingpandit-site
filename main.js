@@ -9,10 +9,14 @@ const translations = {
 
     page_title:     'Marketing Pandit | Product Strategy, Marketing & Web Development',
     hero_badge:     'Product Strategy · Marketing · Web Development',
-    hero_h1:        'From your first idea to your next customer',
-    hero_sub:       'We help you plan what to launch, reach the right customers, and build a website or web app that supports your business.',
-    hero_cta1:      'Discuss Your Project',
-    hero_cta2:      'Our Services',
+    hero_h1:        'Get online. Get enquiries. Start selling.',
+    hero_sub:       'From planning your launch to building a site that takes orders, we help you choose what’s worth doing now and what can wait.',
+    hero_cta1:      'Talk Through Your Project',
+    hero_note:      'No brief needed. Start with what you want to achieve.',
+    paths_title:    'What are you working towards?',
+    path_launch:    'Plan a launch',
+    path_enquiries: 'Get more enquiries',
+    path_sales:     'Sell or take bookings online',
 
     services_label: 'What We Do',
     services_h2:    'Our Services',
@@ -60,9 +64,10 @@ const translations = {
     approach_support_title: 'Plan for after launch',
     approach_support_desc:  'For web projects, we’ll discuss who will manage the site and what support you’ll need.',
 
-    contact_label: 'Get In Touch',
-    contact_h2:    'What are you working on?',
-    contact_sub:   'Tell us a little about your business and what you’d like to achieve. If you have a target launch date, include that too.',
+    contact_label: 'Start a Conversation',
+    contact_h2:    'Not sure where to start? Let’s figure it out.',
+    contact_sub:   'Email us a few lines about your business, what you’d like to achieve, and your launch date if you have one. We’ll help you work out a sensible first step.',
+    contact_cta:   'Email Us About Your Project',
 
     footer_rights: 'All rights reserved.',
   },
@@ -74,10 +79,14 @@ const translations = {
 
     page_title:     'मार्केटिंग पंडित | उत्पादन धोरण, मार्केटिंग आणि वेब विकास',
     hero_badge:     'उत्पादन धोरण · मार्केटिंग · वेब विकास',
-    hero_h1:        'पहिल्या कल्पनेपासून नव्या ग्राहकापर्यंत',
-    hero_sub:       'बाजारात काय आणायचं हे ठरवायला, योग्य ग्राहकांपर्यंत पोहोचायला आणि व्यवसायाला उपयोगी पडेल अशी वेबसाइट किंवा वेब ॲप तयार करायला आम्ही मदत करतो.',
-    hero_cta1:      'प्रकल्पाबद्दल बोलूया',
-    hero_cta2:      'आमच्या सेवा',
+    hero_h1:        'ऑनलाइन या. चौकशी वाढवा. विक्री सुरू करा.',
+    hero_sub:       'लाँचच्या नियोजनापासून ऑनलाइन ऑर्डर घेणारी वेबसाइट तयार करण्यापर्यंत, काय आत्ता करायचं आणि काय नंतर करता येईल हे ठरवायला आम्ही मदत करतो.',
+    hero_cta1:      'तुमच्या प्रकल्पाबद्दल बोलूया',
+    hero_note:      'औपचारिक प्रस्तावाची गरज नाही. तुम्हाला काय साध्य करायचं आहे तेवढं सांगा.',
+    paths_title:    'तुमचं उद्दिष्ट काय आहे?',
+    path_launch:    'लाँचचं नियोजन करायचं आहे',
+    path_enquiries: 'ग्राहकांच्या चौकशी वाढवायच्या आहेत',
+    path_sales:     'ऑनलाइन विक्री किंवा बुकिंग सुरू करायचं आहे',
 
     services_label: 'आम्ही काय करतो',
     services_h2:    'आमच्या सेवा',
@@ -125,9 +134,10 @@ const translations = {
     approach_support_title: 'लाँचनंतरचं नियोजन',
     approach_support_desc:  'वेब प्रकल्पांसाठी वेबसाइट कोण सांभाळेल आणि कोणती मदत लागेल, याबद्दल बोलूया.',
 
-    contact_label: 'संपर्क साधा',
-    contact_h2:    'तुमचा प्रकल्प काय आहे?',
-    contact_sub:   'तुमच्या व्यवसायाबद्दल आणि तुम्हाला काय साध्य करायचं आहे याबद्दल थोडक्यात सांगा. लाँचची अपेक्षित तारीख असेल तर तीही कळवा.',
+    contact_label: 'बोलायला सुरुवात करूया',
+    contact_h2:    'कुठून सुरुवात करायची ते ठरत नाहीये? चला, मिळून ठरवूया.',
+    contact_sub:   'तुमच्या व्यवसायाबद्दल आणि तुम्हाला काय साध्य करायचं आहे याबद्दल थोडक्यात ईमेल करा. लाँचची तारीख ठरली असेल तर तीही कळवा. पहिलं पाऊल काय असावं हे ठरवायला आम्ही मदत करू.',
+    contact_cta:   'प्रकल्पाबद्दल आम्हाला ईमेल करा',
 
     footer_rights: 'सर्व हक्क राखीव आहेत.',
   }
