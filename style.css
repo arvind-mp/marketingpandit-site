@@ -370,6 +370,21 @@ section[id], article[id] { scroll-margin-top: 88px; }
 .contact__action:hover { background: #dbeafe; }
 .contact__action:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
 .contact__action span { font-size: .85rem; font-weight: 500; }
+.contact__actions { display: grid; gap: 8px; text-align: center; }
+.contact__copy {
+  justify-self: center;
+  padding: 8px;
+  background: none;
+  border: 0;
+  color: #fff;
+  font: inherit;
+  font-size: .875rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  cursor: pointer;
+}
+.contact__copy:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.contact__actions .contact__status { margin-top: 0; font-size: .85rem; }
 
 /* ===========================
    FOOTER
@@ -405,7 +420,7 @@ section[id], article[id] { scroll-margin-top: 88px; }
 @media (max-width: 768px) {
   .hero__inner, .about__inner, .contact__panel { grid-template-columns: minmax(0, 1fr); }
   .about__inner { gap: 40px; }
-  .contact__action { justify-self: start; }
+  .contact__actions { justify-self: start; }
 
   .nav nav a:not(.btn):not(:last-child) {
     display: none;
@@ -421,5 +436,5 @@ section[id], article[id] { scroll-margin-top: 88px; }
   .nav__inner, .nav nav { gap: 8px; }
   section[id], article[id] { scroll-margin-top: 104px; }
   .hero__paths { padding: 16px; }
-  .contact__action { justify-self: stretch; }
+  .contact__actions { justify-self: stretch; }
 }

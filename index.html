@@ -165,10 +165,14 @@
           <h2 data-i18n="contact_h2">Not sure where to start? Let’s figure it out.</h2>
           <p data-i18n="contact_sub">Email us a few lines about your business, what you’d like to achieve, and your launch date if you have one. We’ll help you work out a sensible first step.</p>
         </div>
-        <a href="mailto:hello@marketingpandit.in" class="btn contact__action">
-          <strong data-i18n="contact_cta">Email Us About Your Project</strong>
-          <span>hello@marketingpandit.in</span>
-        </a>
+        <div class="contact__actions">
+          <a href="mailto:hello@marketingpandit.in" class="btn contact__action">
+            <strong data-i18n="contact_cta">Email Us About Your Project</strong>
+            <span id="contact-email">hello@marketingpandit.in</span>
+          </a>
+          <button type="button" class="contact__copy" id="copy-email" data-i18n="contact_copy" hidden>Copy email address</button>
+          <p class="contact__status" id="copy-status" role="status"></p>
+        </div>
       </div>
     </div>
   </section>

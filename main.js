@@ -68,6 +68,9 @@ const translations = {
     contact_h2:    'Not sure where to start? Let’s figure it out.',
     contact_sub:   'Email us a few lines about your business, what you’d like to achieve, and your launch date if you have one. We’ll help you work out a sensible first step.',
     contact_cta:   'Email Us About Your Project',
+    contact_copy:  'Copy email address',
+    copy_success:  'Email address copied.',
+    copy_manual:   'Select and copy the email address above.',
 
     footer_rights: 'All rights reserved.',
   },
@@ -138,6 +141,9 @@ const translations = {
     contact_h2:    'कुठून सुरुवात करायची ते ठरत नाहीये? चला, मिळून ठरवूया.',
     contact_sub:   'तुमच्या व्यवसायाबद्दल आणि तुम्हाला काय साध्य करायचं आहे याबद्दल थोडक्यात ईमेल करा. लाँचची तारीख ठरली असेल तर तीही कळवा. पहिलं पाऊल काय असावं हे ठरवायला आम्ही मदत करू.',
     contact_cta:   'प्रकल्पाबद्दल आम्हाला ईमेल करा',
+    contact_copy:  'ईमेल पत्ता कॉपी करा',
+    copy_success:  'ईमेल पत्ता कॉपी झाला.',
+    copy_manual:   'वरील ईमेल पत्ता निवडून कॉपी करा.',
 
     footer_rights: 'सर्व हक्क राखीव आहेत.',
   }
@@ -146,7 +152,13 @@ const translations = {
 // =============================================
 //  Apply translations to the page
 // =============================================
-let currentLang = localStorage.getItem('mp_lang') || 'en';
+let currentLang = 'en';
+try {
+  if (localStorage.getItem('mp_lang') === 'mr') currentLang = 'mr';
+} catch {
+  // Some local previews and privacy settings block storage.
+}
+const copyStatus = document.getElementById('copy-status');
 
 function applyLang(lang) {
   const t = translations[lang];
@@ -168,7 +180,12 @@ function applyLang(lang) {
   });
 
   currentLang = lang;
-  localStorage.setItem('mp_lang', lang);
+  if (copyStatus) copyStatus.textContent = '';
+  try {
+    localStorage.setItem('mp_lang', lang);
+  } catch {
+    // The current page still switches language without persistence.
+  }
 }
 
 // =============================================
@@ -180,6 +197,22 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 
 // Apply saved or default language on load
 applyLang(currentLang);
+
+// Provide an option for visitors without a default email app.
+const copyButton = document.getElementById('copy-email');
+const contactEmail = document.getElementById('contact-email');
+if (copyButton && contactEmail && copyStatus) {
+  copyButton.addEventListener('click', async () => {
+    let message = 'copy_success';
+    try {
+      await navigator.clipboard.writeText(contactEmail.textContent);
+    } catch {
+      message = 'copy_manual';
+    }
+    copyStatus.textContent = translations[currentLang][message];
+  });
+  copyButton.hidden = false;
+}
 
 // =============================================
 //  Dynamic copyright year
