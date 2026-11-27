@@ -40,7 +40,7 @@ a { color: inherit; text-decoration: none; }
 
 .section { padding: 96px 0; }
 .section--alt { background: var(--clr-surface); }
-section[id], article[id] { scroll-margin-top: 88px; }
+section[id], article[id] { scroll-margin-top: 100px; }
 
 .section__head {
   text-align: center;
@@ -49,6 +49,12 @@ section[id], article[id] { scroll-margin-top: 88px; }
 }
 .section__head h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin: 8px 0 12px; }
 .section__head p  { color: var(--clr-muted); }
+#services .section__head h2 {
+  font-size: clamp(2rem, 4.5vw, 2.85rem);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.25;
+}
 
 .grid { display: grid; gap: 24px; }
 .grid--3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); }
@@ -117,7 +123,7 @@ section[id], article[id] { scroll-margin-top: 88px; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 76px;
   gap: 24px;
 }
 
@@ -128,6 +134,20 @@ section[id], article[id] { scroll-margin-top: 88px; }
   letter-spacing: -.01em;
 }
 .nav__logo span { color: var(--clr-accent); }
+
+.nav__brand { display: flex; flex-direction: column; }
+.nav__brand .nav__logo {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -.025em;
+  line-height: 1.15;
+}
+.nav__tagline {
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--clr-muted);
+  line-height: 1.4;
+}
 
 .nav nav {
   display: flex;
@@ -432,9 +452,12 @@ section[id], article[id] { scroll-margin-top: 88px; }
 }
 
 @media (max-width: 480px) {
-  .nav__inner { height: auto; min-height: 64px; padding-block: 10px; flex-wrap: wrap; }
+  .nav__inner { height: auto; min-height: 72px; padding-block: 8px; flex-wrap: wrap; }
   .nav__inner, .nav nav { gap: 8px; }
-  section[id], article[id] { scroll-margin-top: 104px; }
+  .nav__inner { row-gap: 4px; }
+  .nav__brand .nav__logo { font-size: 1.5rem; }
+  .nav__tagline { font-size: .8rem; }
+  section[id], article[id] { scroll-margin-top: 120px; }
   .hero__paths { padding: 16px; }
   .contact__actions { justify-self: stretch; }
 }
